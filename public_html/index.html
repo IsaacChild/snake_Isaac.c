@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>isaac</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+        <section id="startscreen">
+            <h1 class='title'>Welcome to snake.</h1>
+            <h3>Choose a difficulty.</h3> 
+            <h3 id="easyButton">Easy</h3> <h3 id="mediumButton">Medium</h3> <h3 id="hardButton">Hard</h3>
+        </section>   
+     
+        <section id="playHUD">
+            <h2 id="scoreboard"></h2>
+        </section>
+        
+        <section id="gameOver">
+            <h1 class="title">GAME OVER!</h1>
+            <h3 id="restartButton">Restart?</h3>
+        </section>
+        
+        <canvas id="game-screen"></canvas>
+        
+        <script src="js/snake.js"></script>
+    </body>
+</html> 
